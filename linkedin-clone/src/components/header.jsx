@@ -13,7 +13,7 @@ export function Header (){
                 <img className = "object-contain h-10 mr-2.5" src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" alt=""  />
                 <div className="p-2 flex align-center rounded-md bg-gray-100">
                     <SearchIcon />
-                    <input className = "outline-none border-none bg-inherit" type="text" />
+                    <input className = "outline-none border-none bg-inherit h-full" type="text" />
                 </div>
             </div>
             <div className="flex">
