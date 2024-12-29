@@ -8,7 +8,7 @@ import NotificationsIcon from '@mui/icons-material/Notifications';
 
 export function Header (){
     return (
-        <div className='flex justify-evenly border-b p-2 w-full position-sticky top-0 z-[999]'>
+        <div className='flex justify-evenly border-4 p-2 w-full position-sticky top-0 z-[999]'>
             <div className="flex header__left">
                 <img className = "object-contain h-10 mr-2.5" src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" alt=""  />
                 <div className="p-2 flex align-center rounded-md bg-gray-100">
