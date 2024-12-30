@@ -9,8 +9,8 @@ function App() {
   return (
     <div className='bg-[#f3f2ef] flex flex-col items-center'>
       <Header></Header>
-      <div className='flex'>
-        <Sidebar className></Sidebar>
+      <div className='flex w-full '>
+        <Sidebar ></Sidebar>
         <Feed></Feed>
       </div>
     </div>

@@ -4,7 +4,7 @@ import {Avatar}from '@material-ui/core';
 export function Sidebar (){
     const recentItems = (topic) =>{
         return (<
-             div className='flex text-[13px] text-gray-500 font-bold cursor-pointer p-[5px] hover:bg-gray-100 rounded-[5px]'>
+             div className='flex text-[13px] text-gray-500 font-bold cursor-pointer hover:bg-gray-100 rounded-[5px]'>
              <span className='mr-2.5 ml-[5px]'>#</span>
             <p>{topic}</p>
             </div>
